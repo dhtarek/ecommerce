@@ -1,10 +1,45 @@
+@font-face
+{
+    font-family: "JF Flat Regular";
+    src: url(../fonts/JF-Flat-regular.eot);
+    src: url(../fonts/JF-Flat-regular.eot#iefix) format('embedded-opentype'), url('..fonts/JF-Flat-regular.svg#JF Flat Regular')
+    format('svg'),url(../fonts/JF-Flat-regular.woff) format('woff'),
+    url(../fonts/fa-brands-400.ttf) format('truetype')    ;
+font-weight:400;
+font-style: normal;
+}
+
 body
 {
-    text-align: right;
+font-family: "JF Flat Regular", "Segoe UI", Tahoma , 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 14px;
+color: #555;
+line-height: 1.4287143;
+}
+
+
+
+.custom-navbar{
+    border-bottom: 3px solid #EEF0EA;
+    width: 100%;
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.custom-form-control, .custom-btn
+{
+    color: #868686;
+    border: 1px solid #EBEBEB;
+    box-shadow: none;
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 5.5px 13px;
+    transition: all .3s ease;
 
 }
 
-h1
+.custom-btn:hover
 {
-    color: red;
+    background-color: #d4d4d4;
+    border: solid 1px #8C8C8C;
 }
