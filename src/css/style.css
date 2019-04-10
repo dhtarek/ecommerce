@@ -494,8 +494,111 @@ margin: 20px 0 25px;
 {
     margin-top: 14px;
 }
-.row-brands h3.custom-heading
+#row-brands h3.custom-heading
 {
   border-top: 1px solid #eef0ea;
   padding-top: 25px;
+}
+
+/*تذييل الصفحة*/
+#brand-logos
+{
+    background-color: #dbeefa;
+    padding: 25px 0;
+    width: 100%;
+    color: #555555;
+}
+
+#brand-logos img
+{
+    margin-left: 25px;
+    margin-right: 25px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#footer-nav{
+    width: 100%;
+    background-color: #1f1e1e;
+    padding: 50px 0 40px;
+    background-image: url(../images/bg_footer_1.png),url(../images/bg_footer_2.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 110% 0, -10% -150%;
+}
+
+#footer-nav-links
+{
+    margin: 30px 0;
+
+}
+#footer-nav-links a{
+    color: #555;
+    margin-left: 30px;
+    font-weight: bold;
+
+}
+#footer-nav-links a:hover{
+    text-decoration: none;
+    color: #a9a9a9;
+}
+
+#footer-nav #newsletter{
+    border-top: 1px solid #292929;
+
+} 
+
+#footer-nav form{
+    max-width: 260px;
+    margin: 0 auto;
+}
+
+#footer-nav form label{
+    margin: 27px 0 16px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.custom-btn-primary2{
+    color: white;
+    background-color: #f8ad47;
+    border-color: #f8ad47;
+}
+.custom-btn-primary2:hover , .custom-btn-primary2:focus ,
+.custom-btn-primary2:active , .custom-btn-primary2:active:hover,
+.custom-btn-primary2:active:focus , .custom-btn-primary2:hover:disabled{
+    border-color: #b86d07;
+    background-color:  #b86d07;
+}
+
+#newsletter form button
+{
+    border-radius: 0px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    font-size: 14px;
+    padding: 6px 12px 5px;
+    color: inherit;
+}
+
+#newsletter form input
+{
+    background-color: #313131;
+    opacity: .6;
+    border:none;
+}
+
+#footer-copyright-social
+{
+    background-color: #151515;
+    color: #303030;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 700;
+    width: 100%;
+}
+#footer-copyright-social a
+{
+    color: #303030;
+    margin-left: 5px;
+    margin-right: 5px; 
 }
