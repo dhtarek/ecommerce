@@ -459,3 +459,43 @@ margin: 20px 0 25px;
     border-color: #b86d07;
     background-color: transparent;
 }
+
+.custom-panel h4, .custom-panel .price
+{
+    font-size: 130%;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.custom-text-muted
+{
+    color: #a9a9a9;
+}
+
+.custom-arrow-btn
+{
+    background-color: #fff;
+    color: #868686;
+    border: 1px solid #ededed;
+    box-shadow: none;
+    border-radius: 2px;
+    padding: 5px 10px;
+    font-size: 12px;   
+}
+.brand-products
+{
+    margin-bottom: 20px;
+}
+.brand-text
+{
+    display: inline-block;
+}
+
+.brand-products .brand-nav
+{
+    margin-top: 14px;
+}
+.row-brands h3.custom-heading
+{
+  border-top: 1px solid #eef0ea;
+  padding-top: 25px;
+}
